@@ -1,6 +1,10 @@
+
 # 🔧 Dockerized Multi-Database Setup Guide
 
 This guide walks you through running **MongoDB**, **Microsoft SQL Server**, **MySQL**, **Oracle**, **PostgreSQL**, and **Redis** containers using Docker, with persistent storage and proper user credentials.
+
+![DataGrip DB Explorer](https://github.com/user-attachments/assets/8673f178-6720-40f5-977b-334265e18ed2)
+
 
 ---
 
