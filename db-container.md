@@ -125,5 +125,3 @@ Data is persisted using AOF (`appendonly yes`).
 * All data is persisted using Docker volumes (e.g., `mongodata`, `mssqldata`, etc.).
 * All services are exposed to localhost with standard default ports.
 * You can inspect volumes using: `docker volume ls`
-
----
