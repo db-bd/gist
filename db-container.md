@@ -124,6 +124,27 @@ Data is persisted using AOF (`appendonly yes`).
 
 ---
 
+## 7. 🦭 MariaDB
+
+```bash
+docker run -d \
+  --name mariadb-container \
+  -e MARIADB_ROOT_PASSWORD=nopass \
+  -e TZ=Asia/Dhaka \
+  -v mariadb-data:/var/lib/mysql \
+  -v /etc/timezone:/etc/timezone:ro \
+  -v /etc/localtime:/etc/localtime:ro \
+  -p 3307:3306 \
+  mariadb
+```
+**Credentials:**
+
+* Username: `root`
+* Password: `nopass`
+* Port: `3307`
+
+---
+
 ## 📝 Notes:
 
 * All data is persisted using Docker volumes (e.g., `mongodata`, `mssqldata`, etc.).
