@@ -118,6 +118,9 @@ docker run -d \
   redis \
   redis-server --appendonly yes
 ```
+```bash
+docker run -d --name redis-container -v redisdata:/data -p 6379:6379 redis redis-server --appendonly yes
+```
 
 **No password set by default.**
 Data is persisted using AOF (`appendonly yes`).
